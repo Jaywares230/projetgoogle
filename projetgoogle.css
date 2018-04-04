@@ -1,14 +1,19 @@
 
+@font-face{
+     font-family: "open-sans";
+     src: url("/desktop/THCprojets/google/open-sans.regular.ttf");
+}
 .nav
 {
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
-
-
-
+font-family: open-sans, Arial, Times;
 }
 
+.nav a{
+     padding: 6px;
+}
 
 .section
 {
@@ -93,13 +98,59 @@ display: flex;
 
  }
 
+.text a:link
+{
+color: blue;
+}
+
+
+
+footer {
+      display: flex;
+      justify-content: space-between;
+      font-family: open-sans, Arial, Times;
+      font-size: 0.70em;
+      text-justify: auto;
+}
+
+ a:link{
+     text-decoration: none;
+}
+
+ a:link, a:visited, a:hover 
+{
+     color: #6D6D6D;
+}
+
+ a:hover 
+{
+     text-decoration: underline;
+}
+
 .droite
 {
-	display: flex;
-flex-direction: row;
-justify-content: baseline ;
+    display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
 
 }
+
+.droite a 
+{
+     
+     padding: 6px;
+}
+
+.gauche
+{
+     display: :flex;
+     flex-direction: row;
+      justify-content: flex-start;
+      
+      
+}
+
+
 
 
 
