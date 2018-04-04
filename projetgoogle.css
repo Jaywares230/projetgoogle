@@ -104,28 +104,58 @@ color: blue;
 }
 
 
-
 footer {
+
       display: flex;
       justify-content: space-between;
       font-family: open-sans, Arial, Times;
-      font-size: 0.70em;
+      font-size: 0.85em;
       text-justify: auto;
+
+background-color:#f8f8f8;
+height: 30px;
+
+
 }
 
- a:link{
+
+.nav
+{
+  color: black;
+
+}
+
+ a:link
+{
      text-decoration: none;
 }
 
  a:link, a:visited, a:hover 
 {
-     color: #6D6D6D;
+     color: #6d6d6d;
 }
 
  a:hover 
 {
      text-decoration: underline;
 }
+.gauchefr
+
+{
+  border-bottom: solid 1px #6D6D6D;
+font-family: open-sans, Arial, Times;
+      font-size: 0.85em;
+margin-top: 120px;
+background-color:#f8f8f8;
+height: 30px;
+color: #6D6D6D;
+
+
+}
+
+
+
+
 
 .droite
 {
@@ -138,7 +168,7 @@ footer {
 .droite a 
 {
      
-     padding: 6px;
+     padding: 10px;
 }
 
 .gauche
@@ -146,11 +176,17 @@ footer {
      display: :flex;
      flex-direction: row;
       justify-content: flex-start;
+      padding-top: 6px;
       
       
 }
 
+body
+{
 
+
+  max-width: 2000px;
+}
 
 
 
